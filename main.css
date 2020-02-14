@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+nav, footer {
+    background-color: gray;
+    padding: 1% 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+header {
+    padding: 12% 0;
+}
+
+section {
+    min-height: 200px;
+    background-color: lightgray;
+    padding: 6% 0;
+}
+
+.projectsSection {
+    background-color: lightslategray;
+}
