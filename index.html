@@ -3,25 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justin's Portfolio Wireframe</title>
+    <title>Justin's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation">Navbar</nav>
+    <nav role="navigation">
+        <div class="name">Justin Pugh</div>
+        <ul class="links">
+            <li ><a href="#bioSection">Bio</a></li>
+            <li><a href="#projectsSection">Projects</a></li>
+            <li><a target="_blank" href="https://github.com/justypugh">GitHub</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/justypugh">LinkedIn</a></li>
+            <li><a href="mailto:justypugh@icloud.com">Email</a></li>
+            <i class="fas fa-bars"></i>
+        </ul>
+    </nav>
     <main role="mainContent">
         <header role="banner">
-            <h1>Hero section (headline/pic)</h1>
+            <img class="headshot" src="headshot.jpg" alt="my professional picture">
+            <h1>Hi, I’m Justin, a Web Developer with a passion for logic, creativity, and helping others.</h1>
         </header>
 
-        <section class="bioSection">
-            Bio Section
+        <section class="bioSection" id="bioSection">
+            <p>I have a background in the healthcare field, both as an employee and as a student (medical and pharmacy school) and a passion for helping other people. Over the years, I have realized that technology has always been part of everything that I have been involved with, both in work and for pleasure. In being a self-starter and progressing in the world of technology, I discovered that Web Development beautifully merges two additional areas that I am passionate about: logic and creativity. The thought of combining helping others, logic, and creativity greatly excites me. I strive to better whatever community I am in, and with the power of the internet, there is the potential to have a positive impact on society with a global reach, which sounds like a dream come true.</p>
         </section>
 
-        <section class="projectsSection">
-            Projects Section
+        <div class="prompt">
+            <p>Check out my Projects below!</p>
+        </div>
+
+        <section class="projectsSection" id="projectsSection">
+            <img class="lotr-project" src="project-screenshot.png" alt="Screenshot of my The Lord of the Rings project">
+            <p>This project utilizes HTML, CSS, JavaScript, and jQuery to see if you are a The Lord of The Rings nerd or not. If you don’t like the score you received, you can always try again!</p>
         </section>
     </main>
-    <footer role="contentinfo">Footer</footer>
+    <footer role="contentinfo">
+        <ul class="links">
+            <li><a href="#projectsSection">Projects</a></li>
+            <li><a target="_blank" href="https://github.com/justypugh">GitHub</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/justypugh">LinkedIn</a></li>
+            <li><a href="mailto:justypugh@icloud.com">Email</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
