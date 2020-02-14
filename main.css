@@ -52,8 +52,12 @@ a:visited {
     color: blue;
 }
 
-.lotr-links {
+.lotr-links a {
     color: black;
+}
+
+.lotr-links a:visited {
+    color: blue;
 }
 
 /* header section */
