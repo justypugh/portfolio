@@ -3,6 +3,7 @@
 }
 
 body {
+    position: relative;
     text-align: center;
     font-size: 20px;
     line-height: 1.5;
@@ -43,14 +44,157 @@ li {
     display: inline-block;
     padding-right: 10px;
 }
+a {
+    color: white;
+}
+
+a:visited {
+    color: blue;
+}
+
+.lotr-links {
+    color: black;
+}
 
 /* header section */
 header {
     padding: 12% 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
+/* section section */
 section {
     min-height: 200px;
     background-color: rgb(238, 238, 238);
     padding: 6% 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+/* media queries */
+/* mobile/tablet sizes */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: min-content;
+    }
+
+    ul {
+        justify-content: space-between;
+    }
+
+    .headshot {
+        width: 256px;
+        height: 256px;
+        margin-top: 75px;
+    }
+
+    .lotr-project {
+        width: 85%;
+        height: 100%;
+    }
+
+    .bioSection {
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    .lotr-description {
+        text-align: left;
+    }
+
+    .projectsSection {
+        margin-bottom: 10px;
+    }
+
+    p {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .prompt {
+        padding-top: 6%;
+    }
+}
+
+/* larger screen sizes */
+@media screen and (min-width: 769px) {
+    .name {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    .links {
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+
+    nav {
+        width: 100%;
+        height: 100px;
+    }
+
+    header {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 3%;
+    }
+
+    .headshot {
+        margin-top: 50px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .bioSection {
+        font-size: 25px;
+        line-height: 1.75;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .lotr-project {
+        width: 85%;
+        height: 100%;
+    }    
+
+    .lotr-description {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+    }
+
+    .lotr-links {
+        font-size: 25px;
+    }
+
+    section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    p {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .prompt {
+        padding-top: 6%;
+        font-size: 30px;
+    }
+
+    .projectsSection {
+        margin-bottom: 60px;
+    }
 }
