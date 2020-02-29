@@ -63,19 +63,19 @@ a:visited {
     color: white;
 }
 
-.lotr-links a {
+.project-links a {
     color: black;
 }
 
-.lotr-links a:visited {
+.project-links a:visited {
     color: black;
 }
 
-.lotr-links a:active {
+.project-links a:active {
     color: blue;
 }
 
-.lotr-links a:hover {
+.project-links a:hover {
     color: red;
 }
 
@@ -115,7 +115,7 @@ section {
         margin-top: 75px;
     }
 
-    .lotr-project {
+    .project {
         width: 85%;
         height: 100%;
     }
@@ -128,7 +128,7 @@ section {
         padding-bottom: 5px;
     }
 
-    .lotr-description {
+    .description {
         text-align: left;
     }
 
@@ -186,19 +186,19 @@ section {
         padding-right: 5px;
     }
 
-    .lotr-project {
+    .project {
         width: 85%;
         height: 100%;
     }    
 
-    .lotr-description {
+    .description {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
         font-size: 30px;
     }
 
-    .lotr-links {
+    .project-links {
         font-size: 25px;
     }
 
